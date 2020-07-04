@@ -1,0 +1,145 @@
+html{
+    height:100%;
+    overflow-y: hidden;
+    background: black;
+    & body{
+        background-size: cover;
+        height:100%;
+        & #app{
+            height: 93%;
+        }
+        & section{
+            height:100%;
+            & article{
+                height: 100%;
+                color:white;
+                font-weight: bold;
+            }
+        }
+        & a{
+            &:hover{
+                color:white;
+            }
+            text-decoration: none;
+            color:white;
+        }
+        & ul{
+            & li{
+                list-style-type: none;
+            }
+        }
+    }
+}
+
+#citation{
+    & p{
+        font-style: italic;
+    }
+    color:white;
+    height:80vh;
+}
+.project{
+    & article{
+        &:first-child{
+            &:hover{
+                background-image: url('../img/burger.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        &:nth-child(2){
+            &:hover{
+                background-image: url('../img/office.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        &:nth-child(3){
+            &:hover{
+                background-image: url('../img/mountains.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        &:nth-child(4){
+            &:hover{
+                background-image: url('../img/city.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+#contact{
+    background-color: rgb(22, 21, 21);
+    height:100%;
+}
+
+#about{
+    height:100%;
+    background-color: rgba(36, 35, 35, 0.568);
+    line-height: 20px;
+}
+
+
+.form-control{
+
+    background-color: rgb(49, 48, 48);
+    border:none;
+    text-align: center;
+}
+
+.btn{
+    border:1px solid rgb(255, 249, 249);
+    color:white;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+}
+
+@media only screen 
+  and (min-device-width: 0px) 
+  and (max-device-width: 800px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+html{
+    overflow: inherit;
+}
+.project{
+    height:600px;
+    & article{
+        height:150px;
+        &:first-child{
+                background-image: url('../img/burger.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+        }
+        &:nth-child(2){
+                background-image: url('../img/office.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+        }
+        &:nth-child(3){
+                background-image: url('../img/mountains.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+        }
+        &:nth-child(4){
+                background-image: url('../img/city.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+        }
+    }
+}
+
+}

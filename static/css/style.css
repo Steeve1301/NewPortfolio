@@ -1,0 +1,138 @@
+html {
+  height: 100%;
+  overflow-y: hidden;
+  background: black;
+}
+
+html body {
+  background-size: cover;
+  height: 100%;
+}
+
+html body #app {
+  height: 93%;
+}
+
+html body section {
+  height: 100%;
+}
+
+html body section article {
+  height: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+html body a {
+  text-decoration: none;
+  color: white;
+}
+
+html body a:hover {
+  color: white;
+}
+
+html body ul li {
+  list-style-type: none;
+}
+
+#citation {
+  color: white;
+  height: 80vh;
+}
+
+#citation p {
+  font-style: italic;
+}
+
+.project article:first-child:hover {
+  background-image: url("../img/burger.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project article:nth-child(2):hover {
+  background-image: url("../img/office.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project article:nth-child(3):hover {
+  background-image: url("../img/mountains.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project article:nth-child(4):hover {
+  background-image: url("../img/city.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact {
+  background-color: #161515;
+  height: 100%;
+}
+
+#about {
+  height: 100%;
+  background-color: rgba(36, 35, 35, 0.568);
+  line-height: 20px;
+}
+
+.form-control {
+  background-color: #313030;
+  border: none;
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid #fff9f9;
+  color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
+  html {
+    overflow: inherit;
+  }
+  .project {
+    height: 600px;
+  }
+  .project article {
+    height: 150px;
+  }
+  .project article:first-child {
+    background-image: url("../img/burger.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project article:nth-child(2) {
+    background-image: url("../img/office.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project article:nth-child(3) {
+    background-image: url("../img/mountains.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project article:nth-child(4) {
+    background-image: url("../img/city.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+/*# sourceMappingURL=style.css.map */
