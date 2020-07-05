@@ -48,8 +48,4 @@ new Vue({
 
       
 gsap.fromTo("#the-citation", { duration:3, x: -200}, {x: 0});
-gsap.fromTo("#explore", { duration:2, x: 2000}, {x: 0});
-gsap.fromTo("#navbar", { duration:3, y: -200}, {y: 0});
-
-
 gsap.fromTo(".project", { duration:10, opacity:0}, {opacity:1});
