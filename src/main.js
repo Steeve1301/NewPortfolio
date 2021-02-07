@@ -40,12 +40,13 @@ const routes= [
 const router= new VueRouter({routes});
 
 new Vue({
+   mode: 'hash',
    el: '#app',
    router:router
 });
 
-//GSAP 
+//GSAP
 
-      
+
 gsap.fromTo("#the-citation", { duration:3, x: -200}, {x: 0});
 gsap.fromTo(".project", { duration:10, opacity:0}, {opacity:1});
